@@ -4,9 +4,8 @@
   box-sizing: border-box;
 }
 
-
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   background-color: #05040c;
   color: #eee;
 }
@@ -20,7 +19,7 @@ a {
 }
 
 .title {
-  font-family: 'Bebas Neue', cursive;
+  font-family: "Bebas Neue", cursive;
 }
 
 .right-arrow,
@@ -69,6 +68,10 @@ a {
   width: 700px;
   height: 900px;
   margin-top: -330px;
+  -webkit-border-bottom-left-radius: 50px;
+  -moz-border-radius-bottomleft: 50px;
+  border-bottom-left-radius: 50px;
+  overflow: hidden;
 }
 
 .exercise-card {
