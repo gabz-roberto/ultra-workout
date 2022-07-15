@@ -3,10 +3,11 @@ import { Stack, Box, Button, Typography, TextField } from "@mui/material";
 
 import { exerciseOptions, fetchData } from '../utils/fetchData'
 
-const SearchExercises = () => {
+import { Scrollbar } from '../components/index'
+
+const SearchExercises = ({setExercises, bodyPart, setBodyPart}) => {
   const [search, setSearch] = useState('');
   const [bodyParts, setBodyParts] = useState([]);
-  const [exercises, setExercises] = useState([]);
 
   useEffect(() => {
     const fetchExercisesData = async () => {
@@ -85,7 +86,7 @@ const SearchExercises = () => {
         </Button>
       </Box>
       <Box sx={{ position: 'relative', width: '100%', p: '20px' }}>
-          {/* Criar o carousel */}
+          <Scrollbar data={bodyParts} bodyPart={bodyPart} setBodyPart={setBodyPart}/>
       </Box>
     </Stack>
   );

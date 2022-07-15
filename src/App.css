@@ -31,7 +31,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #ff2625;
+  color: #C2000D;
   font-size: 25px;
   border-radius: 4px;
   position: absolute;
@@ -78,7 +78,7 @@ a {
   width: 400px;
   height: 445px;
   background: #fff;
-  border-top: 4px solid #ff2625;
+  border-top: 4px solid #C2000D;
   border-bottom-left-radius: 20px;
   text-decoration: none;
   display: flex;
@@ -104,8 +104,9 @@ a {
 }
 
 .search-btn:hover {
-  color: #ff2625 !important;
-  border: 1px solid #ff2625 !important;
+  color: #eee !important;
+  border: 1px solid #C2000D !important;
+  background-color: #98000a !important;
 }
 
 .exercise-video {
