@@ -77,9 +77,10 @@ a {
 .exercise-card {
   width: 400px;
   height: 445px;
-  background: #fff;
+  background: #0E1333;
   border-top: 4px solid #C2000D;
   border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
   text-decoration: none;
   display: flex;
   justify-content: space-between;
@@ -87,6 +88,7 @@ a {
   padding-bottom: 10px;
   transform: scale(1, 1);
   transition: 0.3s all ease-in-out;
+  overflow: hidden;
 }
 
 .exercise-card img {
