@@ -7,6 +7,7 @@ const Home = () => {
   const [exercises, setExercises] = useState([]);
   const [bodyPart, setBodyPart] = useState("");
 
+
   return (
     <Box>
       <HeroBanner />
