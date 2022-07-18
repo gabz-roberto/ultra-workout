@@ -91,6 +91,10 @@ a {
   overflow: hidden;
 }
 
+.MuiPaginationItem-root {
+  color: #eee !important;
+}
+
 .exercise-card img {
   height: 326px;
 }
